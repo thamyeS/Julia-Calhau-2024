@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main (){
+    int A, B, C;
+    
+    printf("Digite o primeiro numero A: ");
+    scanf("%d", &A);
+    
+    printf("Digite o segundo numero B: ");
+    scanf("%d", &B);
+    
+    C = (A + B);
+    
+    printf("A soma de A + B e igual a = ");
+    printf("%d", C);
+    
+    return 0;
+    
+}

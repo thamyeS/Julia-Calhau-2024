@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média  Alunos</title>
+    <style>
+        body {font:12pt times;}
+        button {font-size: 12pt; padding: 30px;}
+    </style>
+</head>
+<body background=" https://cdn.awsli.com.br/2500x2500/2361/2361419/produto/146854552/dec5929d31.jpg">
+    <center><h1><font face = "Bernard MT" color="black">Média alunos</font></h1></center>
+    <center><button onclick= "somar()">Iniciar Calculo da Média</button></center>
+    <section id="res">
+        <center><p> O resultado da media vem aqui...</p></center>
+    </section>
+    <script>
+    function somar() {
+        let n1 = Number(window.prompt('Digite um número: '))
+        let n2 = Number(window.prompt('Digite outro número: '))
+        let n3 = Number(window.prompt('Digite outro número '))
+        let n4 = Number(window.prompt('Digite outro número '))
+
+        soma = (n1+n2+n3+n4)/4;
+
+        let res = document.querySelector('section#res')
+        res.innerHTML = `<p> A soma entre <mark>${n1}</mark>; <mark> ${n2}</mark>; <mark> ${n3}</mark> e <mark> ${n4}</mark> é igual a 
+            <strong>${soma}</strong>!</p>`
+
+    }
+
+</script>
+</body>
+</html>

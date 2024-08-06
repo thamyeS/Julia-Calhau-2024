@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 - Lima</title>
+<body>
+    <p><font size = "12" color = "Pink" face = "BatmanForeverOutline"><b>Julia Calhau!</b></p></font>
+    <p><h2><i><font size = "Comic Sans MS"></font>Desenvolvimento de Sistemas</i></h3></p>
+    <p><font color = "Black">5°<sup>Subscrito</sup>SENAI</p></font>
+<!--isso é um comentario-->
+    <p>Então o exemplo de SUB <sub>A tag faz essa função</sub></p>
+
+    <!--com ins o texto fica grifado em baixo-->
+    <p> Exemplo de:<ins> Inserido</ins></p>
+    
+    <!--com del o texto fica com um risco na palavra-->
+    <p>Exemplo de:<del> Excluido</del></p>
+
+    <!--com small o texto fica pequeno-->
+    <p>Exemplo de:<small> Pequeno</small></p>
+
+    <!--com mark o texto fica grifado igual com marca texto-->
+    <p>Exemplo de:<mark> Mark</mark></p>
+
+    <!--esse é um exemplo de algumas marcações de texto juntas-->
+    <p>Exemplo de:<i><b><small><mark>Flor</mark></small></b></i></p>
+
+    <!----Lista Ordenada-->
+    <p>Isso é uma lista ordenada OL=Order  List</p>
+    
+    <ol type = "I">
+        <li>A lista ordenada sempre vai ser criada com a ordem de linhas</li>
+        <li>A ordem das linhas sempre vai ser sequencial</li>
+        <li>Por isso o nome é ORDENADA</li>
+        <li>A tag ol significa ORDER LIST</li>
+        <li>VEM</li>
+        <li>FÉRIAS</li>        
+        <li>DE</li>        
+        <li>DEZEMBROOOO!!!!!!!</li>        
+    </ol>
+
+    <!--br pula linha-->
+    <br>
+    <br>
+
+    <a href="Atividade1.html">Vai Diretamente Para Outra Pagina</a>
+    <br>
+    <img src="https://i.pinimg.com/originals/a0/02/a3/a002a3e51a2adc85d6c0a4684892e743.gif">
+
+     
+</body>
+</html>

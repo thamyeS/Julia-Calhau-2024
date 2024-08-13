@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <p><font size="6" face="Bernard MT">Deixe um comentário</font></p>
+    <br>
+    <br>
+    <label for="nome"><font size="4">Nome:</font></label>
+    <br>
+    <input type="text" id="nome" requered/>
+    <br>
+    <label for="email"><font size="4">E-mail:</font></label>
+    <br>
+    <input id="email" type="email" requered/>
+    <br>
+    <label for="website"><font size="4">Website:</font></label>
+    <br>
+    <input type="website" id="website"/>
+    <br>
+    <label for="comentário"><font size="4">Comentário</font></label>
+    <br>
+    <textarea id="comentário"></textarea>
+    <br>
+    <p><font size="4" face="Arial" color="black">Observação: Seu comentário será publicado após passar pelo moderador</font></p>
+    <br>
+    <input type="submit"/>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+DROP DATABASE condominiosenai;
+CREATE DATABASE condominiosenai;
+USE condominiosenai;
+
+CREATE TABLE Condominio (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR (50),
+    endereco TEXT,
+    cnpj VARCHAR(70)
+);
+
+CREATE TABLE Funcionarios (
+    id_funcionario INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(60),
+    cargo VARCHAR(50),
+    cpf VARCHAR(50),
+    data_admissão DATE,
+    id_cond INT,
+    FOREIGN KEY (id_cond) REFERENCES Condominio(id)
+);
+
+CREATE TABLE Apartamentos (
+    id_apartamento INT AUTO_INCREMENT PRIMARY KEY,
+    numero INT,
+    bloco VARCHAR(10),
+    andar INT,
+    id_cond INT,
+    FOREIGN KEY (id_cond) REFERENCES Condominio(id)
+);
+
+CREATE TABLE Moradores (
+    id_moradores INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50),
+    idade INT,
+    nascimento DATE,
+    telefone VARCHAR(50),
+    cpf VARCHAR(50),
+    id_apartamento INT,
+    FOREIGN KEY (id_apartamento) REFERENCES Apartamentos(id_apartamento)
+);
